@@ -1,0 +1,122 @@
+[
+    {
+        "id": 10001,
+        "filename": "tom_cruise.mp3",
+        "celebrity": "Tom Cruise",
+        "gender": "male",
+        "occupation": "actor",
+        "picture": "tom_cruise.jpg"
+    },
+    {
+        "id": 10002,
+        "filename": "the_rock.mp3",
+        "celebrity": "Dwayne Johnson",
+        "gender": "male",
+        "occupation": "actor",
+        "picture": "the_rock.jpg"
+    },
+    {
+        "id": 10003,
+        "filename": "robert_downeyjr.mp3",
+        "celebrity": "Robert Downey Jr",
+        "gender": "male",
+        "occupation": "actor",
+        "picture": "robert_downeyjr.jpg"
+    },
+    {
+        "id": 10004,
+        "filename": "will_smith.mp3",
+        "celebrity": "Will Smith",
+        "gender": "male",
+        "occupation": "actor",
+        "picture": "will_smith.jpg"
+    },
+    {
+        "id": 10005,
+        "filename": "johnny_depp.mp3",
+        "celebrity": "Johnny Depp",
+        "gender": "male",
+        "occupation": "actor",
+        "picture": "johnny_depp.jpg"
+    },
+    {
+        "id": 10006,
+        "filename": "jimmy_fallon.mp3",
+        "celebrity": "Jimmy Fallon",
+        "gender": "male",
+        "occupation": "comedian",
+        "picture": "jimmy_fallon.jpg"
+    },
+    {
+        "id": 10007,
+        "filename": "beyonce.mp3",
+        "celebrity": "Beyoncé",
+        "gender": "female",
+        "occupation": "singer",
+        "picture": "beyonce.jpg"
+    },
+    {
+        "id": 10008,
+        "filename": "rihanna.mp3",
+        "celebrity": "Rihanna",
+        "gender": "female",
+        "occupation": "singer",
+        "picture": "rihanna.jpg"
+    },
+    {
+        "id": 10009,
+        "filename": "selena_gomez.mp3",
+        "celebrity": "Selena Gomez",
+        "gender": "female",
+        "occupation": "singer",
+        "picture": "selena_gomez.jpg"
+    },
+    {
+        "id": 10010,
+        "filename": "lady_gaga.mp3",
+        "celebrity": "Lady Gaga",
+        "gender": "female",
+        "occupation": "singer",
+        "picture": "lady_gaga.jpg"
+    },
+    {
+        "id": 10011,
+        "filename": "jennifer_lawrence.mp3",
+        "celebrity": "Jennifer Lawrence",
+        "gender": "female",
+        "occupation": "actress",
+        "picture": "jennifer_lawrence.jpg"
+    },
+    {
+        "id": 10012,
+        "filename": "julia_roberts.mp3",
+        "celebrity": "Julia Roberts",
+        "gender": "female",
+        "occupation": "actress",
+        "picture": "julia_roberts.jpg"
+    },
+    {
+        "id": 10013,
+        "filename": "stephen_curry.mp3",
+        "celebrity": "Stephen Curry",
+        "gender": "male",
+        "occupation": "basketball player",
+        "picture": "stephen_curry.jpg"
+    },
+    {
+        "id": 10014,
+        "filename": "ed_sheeran.mp3",
+        "celebrity": "Ed Sheeran",
+        "gender": "male",
+        "occupation": "singer",
+        "picture": "ed_sheeran.jpg"
+    },
+    {
+        "id": 10015,
+        "filename": "chadwick_boseman.mp3",
+        "celebrity": "Chadwick Boseman",
+        "gender": "male",
+        "occupation": "actor",
+        "picture": "chadwick_boseman.jpg"
+    }
+]
