@@ -107,11 +107,27 @@ app.get("/voices/random", (req, res) => {
     res.status(500).send("Server Error");
   }
 });
+
 // Display leaderboard
 app.get("/display/leaderboard", (req, res) => {
   try {
     const leaderboardData = JSON.parse(fs.readFileSync("./leaderboard.json", "utf8"));
-    res.status(200).json(leaderboardData);
+    leaderboardData.sort((a, b) => b.score - a.score);
+    let rank = 0;
+    let prevScore = -1;
+    let skip = 0; 
+    const rankedData = leaderboardData.map((entry) => {
+      if (entry.score === prevScore) {
+        skip++;
+      } else {
+        rank += skip + 1;
+        skip = 0;
+      }
+      prevScore = entry.score;
+      return { ...entry, rank }; 
+    });
+
+    res.status(200).json(rankedData);
   } catch (error) {
     res.status(500).json({ message: "Error fetching leaderboard", error });
   }
@@ -121,6 +137,12 @@ app.get("/display/leaderboard", (req, res) => {
 // Save the score
 app.post("/savescore", (req, res) => {
   const { name, score } = req.body;
+  
+    // Check if the score is 0
+    if (score === 0) {
+      return res.status(400).json({ message: "Score is too low to be saved" });
+    }
+
   try {
     // Read current leaderboard
     const leaderboardData = JSON.parse(fs.readFileSync("./leaderboard.json", "utf8"));
